@@ -1,0 +1,46 @@
+@media screen and (max-width: 600px){
+    header{
+        text-align: center;
+    }
+    .join{
+        float: none;
+        margin: 10px;
+    }
+
+    .homeheader h3{
+        width: 200px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .homeheader{
+        height: 500px;
+    }
+
+    .labelbar{
+        height: 300px;
+    }
+
+    .btnJoin{
+        display: block;
+    }
+
+    nav ul li{
+        display: block;
+    }
+
+    #mobileMenu{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        font-size: 200%;
+        
+        display: block;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    
+}

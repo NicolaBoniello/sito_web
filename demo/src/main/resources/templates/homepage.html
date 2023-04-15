@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prova sito web!</title>
+        <meta name="author" content="Nicola boniello">
+        <meta name="description" content="il mio primo sito web!">
+        <meta name="keyword" content="MyFirstSite, Try, NoPainNoGain">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="../../../../styles/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../../../styles/mobile.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+        <h2>One Day</h2>
+        <span class="join">Join now -> <b> Mc:MineOneDay.noth</b></span>
+    </header>
+    <nav>
+        <a href="javascript:void(0)" id="mobileMenu" onclick="toggle()">&#8801</a>
+        <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Staff</a></li>
+            <li><a href="#">Regolamento</a></li>
+            <li><a href="#">Lista ban</a></li>
+            <li class="registrati"><a href="signup.html">Registrati</a></li>
+            <li><a href="login.html">Accedi</a></li>
+        </ul>
+    </nav>
+
+    <div class="homeheader">
+        <div class="labelbar">
+            <h1>mc.MineOneDay.noth</h1>
+            <h3> Vieni a trovarci nel nostro server, non te ne pentirai!</h3>
+            <a href="#" class="btnJoin">Join now</a>
+
+        </div>
+    </div>
+    <div id="boxes">
+        <div class="card">
+            <h2>Staff 24/7</h2>
+            <p>Il nostro staff sarà sempre a tua disposizione! Non esitare a contattarci.</p>
+        </div>
+        <div class="card">
+            <h2>Store vip</h2>
+            <p>Acquista il pacchetto premium per tantissimi vantaggi esclusivi!</p>
+        </div>
+        <div class="card">
+            <h2>Server originale</h2>
+            <p>Tutte le mappe ed i plugin sono stati sviluppati interamente dal nostro staff</p>
+        </div>
+        </div>
+    </div>
+
+    <div id="staff">
+        <h2>Il nostro staff</h2>
+        <div class="staffCard">
+            <img src="../../../../images/staff.svg" alt="stafferName">
+            <div>
+                <h4>Nicola</h4>
+                <span>Founder</span>
+            </div>
+        </div>
+
+        <div class="staffCard">
+            <img src="../../../../images/staff.svg" alt="stafferName">
+            <div>
+                <h4>Kevin</h4>
+                <span>Founder</span>
+            </div>
+        </div>
+
+        <div class="staffCard">
+            <img src="../../../../images/staff.svg" alt="stafferName">
+            <div>
+                <h4>Jacob</h4>
+                <span>Co-Founder</span>
+            </div>
+        </div>
+
+        <div class="staffCard">
+            <img src="../../../../images/staff.svg" alt="stafferName">
+            <div>
+                <h4>Alexa</h4>
+                <span>Admin</span>
+            </div>
+        </div>
+
+        <div class="staffCard">
+            <img src="../../../../images/staff.svg" alt="stafferName">
+            <div>
+                <h4>Ramona</h4>
+                <span>Helper</span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>SEGUICI SUI SOCIAL</h2>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </footer>
+    </body>
+    <script>
+        function toggle(){
+            var nav = document.getElementById("menu");
+            if(nav.style.display == "none"){
+                nav.style.display = "block";
+            } else{
+                nav.style.display = "none";
+            }
+        }
+    </script>
+</html>

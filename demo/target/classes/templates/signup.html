@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="../../../../styles/signup.css">
+</head>
+<body>
+
+    <div class="login-box">
+        <h2>Signup</h2>
+        <form action="http://localhost:8080/auth/signup" id="signup-form" method="post">
+            <div class="user-box">
+                <input type="text" name="name" id="name" required>
+                <label for="name">Name</label>
+            </div>
+            <div class="user-box">
+                <input type="text" name="surname" id="surname" required>
+                <label for="surname">Surname</label>
+            </div>
+
+          <div class="user-box">
+            <input type="email" name="email" id="email" required>
+            <label for="email">Email</label>
+          </div>
+            <div class="user-box">
+            <input type="text" name="username"  id="username" required="">
+            <label for="username">Username</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="password" id="password" required="">
+            <label for="password">Password</label>
+          </div>
+          <a href="login.html">
+
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <button type="submit" id="submit-btn">Submit</button>
+
+          </a>
+        </form>
+
+        <script>
+  // selezioniamo il form e il pulsante submit
+  const form = document.getElementById('signup-form');
+  const submitBtn = document.getElementById('submit-btn');
+
+  // aggiungiamo un listener per l'evento submit del form
+  form.addEventListener('submit', function(event) {
+    // impediamo al browser di inviare la richiesta POST vuota al server
+    event.preventDefault();
+
+    // recuperiamo i valori dei campi del form
+    const name = form.elements['name'].value;
+    const surname = form.elements['surname'].value;
+    const email = form.elements['email'].value;
+    const username = form.elements['username'].value;
+    const password = form.elements['password'].value;
+
+    // verifichiamo che tutti i campi del form siano stati compilati
+    if (name === '' || surname === '' || email === '' || username === '' || password === '') {
+      // se i campi del form non sono stati compilati, mostriamo un messaggio di errore all'utente
+      alert('Per favore, compila tutti i campi del form.');
+    } else {
+      // se tutti i campi del form sono stati compilati, eseguiamo il reindirizzamento
+      window.location.replace("C:\Users\nicol\OneDrive\Desktop\demo\src\main\resources\templates\login.html");
+    }
+  });
+</script>
+        <div class="already">
+            <a href="login.html">Already registered?</a>
+        </div>
+
+    </div>
+
+
+
+
+    
+</body>
+
+</html>

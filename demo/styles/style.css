@@ -1,0 +1,226 @@
+header{
+    margin: 0;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(7, 69, 126);
+    padding: 15px;
+}
+
+header h2, header span{
+    display: inline-block;
+}
+
+.logo{
+    font-size: 200%;
+}
+
+.join{
+    float: right;
+    position: relative;
+    margin-top: 2%;
+    margin-right: 15px;
+    font-size: 150%;
+}
+
+nav{
+    background-color: #02213d;
+    text-align: center;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px;
+}
+
+nav ul li:hover{
+    background-color: #1866b0;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.homeheader{
+    background-image: url(../images/background_home.jpg);
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.join b{
+    color: orange;
+}
+
+.labelbar{
+    color: white;
+    background-color: rgba(95, 99, 112, 0.5);
+    text-align: center;
+    padding: 20px;
+    height: auto;
+}
+
+.labelbar h3{
+    margin: 2%;
+}
+
+
+
+.btnJoin{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 200px;
+    padding: 15px;
+}
+
+.btnJoin:hover{
+    color:black;
+    background-color: white;
+
+}
+
+#boxes{
+    text-align: center;
+    padding: 15px;
+    background-color: #02213d;
+}
+
+
+
+.card{
+    background-color: #07457e;
+    color:white;
+    text-align: center;
+    border-radius: 25px;
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    margin-right: 5%;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, 
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, 
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, 
+    rgba(0, 0, 0, 0.06) 0px 2px 1px, 
+    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+     rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+     rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+     rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, 
+    rgba(0, 0, 0, 0.15) 0px -36px 60px 0px inset, 
+    rgba(0, 0, 0, 0.1) 0px -79px 80px 0px inset, 
+    rgba(0, 0, 0, 0.06) 0px 4px 1px, 
+    rgba(0, 0, 0, 0.09) 0px 8px 2px,
+     rgba(0, 0, 0, 0.09) 0px 16px 4px, 
+     rgba(0, 0, 0, 0.09) 0px 32px 8px, 
+     rgba(0, 0, 0, 0.09) 0px 64px 16px;
+}
+
+#staff{
+    color: white;
+    text-align: center;
+    background-image: url(../images/background_staff.jpg);
+    padding: 15px;
+}
+
+.staffCard{
+    width: 300px;
+    padding: 0;
+    background-color: rgba(7, 69, 126, 0.8);
+    color: white;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, 
+    rgba(0, 0, 0, 0.15) 0px -36px 60px 0px inset, 
+    rgba(0, 0, 0, 0.1) 0px -79px 80px 0px inset, 
+    rgba(0, 0, 0, 0.06) 0px 4px 1px, 
+    rgba(0, 0, 0, 0.09) 0px 8px 2px,
+     rgba(0, 0, 0, 0.09) 0px 16px 4px, 
+     rgba(0, 0, 0, 0.09) 0px 32px 8px, 
+     rgba(0, 0, 0, 0.09) 0px 64px 16px;
+}
+
+.staffCard img{
+    width: 64px;
+    height: 64px;
+   
+    margin-top: 5%;
+    
+    
+}
+
+.staffCard div{
+    padding: 15px;
+    text-align: center;
+}
+
+.staffCard span{
+    background-color: orange;
+    border-radius: 200px;
+    padding: 5px;
+    
+}
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover{
+    opacity: 0.5;
+
+}
+
+.fa-facebook{
+    background-color: #1508a3;
+    color: white;
+}
+
+.fa-instagram{
+    background-color: #e70e7b;
+    color: white;
+}
+
+.fa-twitter{
+    background-color: #55ACEE;
+    color: white;
+}
+
+.fa-youtube{
+    background-color: #bb0000;
+    color: white;
+
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(7, 69, 126);
+    color: white;
+    padding: 15px;
+}
+
+#mobileMenu{
+    display: none;
+}
+
+
+
+
+
+
+
